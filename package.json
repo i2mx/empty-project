@@ -1,0 +1,24 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "Empty project.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.24.0"
+  },
+  
+  "snowpack": {
+    "install": [
+      "@supabase/supabase-js"
+    ]
+  }
+}
