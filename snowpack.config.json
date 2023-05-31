@@ -2,5 +2,10 @@
   "mount": {
     "dist": "/",
     "src": "/"
+  },
+
+  "buildOptions": {
+    "out": "docs",
+    "metaUrlPath": "snowpack"
   }
 }
